@@ -1,2 +1,2 @@
 # CivicsClicker
-Simple clicker with formation of humanity
+Simple clicker about formation of humanity
