@@ -3,3 +3,8 @@ Logs/
 Temp/
 Packages/
 UserSettings/
+obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+obj/
+Assets/TextMesh Pro/
+.vs/
+Assets/TextMesh Pro.meta
