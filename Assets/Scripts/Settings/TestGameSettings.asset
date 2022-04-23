@@ -16,6 +16,8 @@ MonoBehaviour:
   _autoClickDefaultCost: 1
   _clickDefaultUpgradePrice: 100
   _autoClickDefaultPrice: 100
+  _clickUpgrades: 0
+  _clickUpgradesPoints: 1
   _maxCivicsStart: 100
   _maxFoodStart: 10
   _maxWoodStart: 10

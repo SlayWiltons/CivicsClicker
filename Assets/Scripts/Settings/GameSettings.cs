@@ -10,6 +10,8 @@ public class GameSettings : ScriptableObject
     public ulong _autoClickDefaultCost;
     public ulong _clickDefaultUpgradePrice;
     public ulong _autoClickDefaultPrice;
+    public ulong _clickUpgrades;
+    public ulong _clickUpgradesPoints;
     [Header("Resourses parameters", order = 1)]
     public ulong _maxCivicsStart;
     public ulong _maxFoodStart;
