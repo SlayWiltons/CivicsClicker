@@ -53,9 +53,10 @@
     <UnityVersion>2020.3.33f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Settings\GameSettings.cs" />
-    <Compile Include="Assets\Scripts\MainController.cs" />
     <Compile Include="Assets\Scripts\Click.cs" />
+    <Compile Include="Assets\Scripts\MainController.cs" />
+    <Compile Include="Assets\Scripts\Settings\GameSettings.cs" />
+    <Compile Include="Assets\Scripts\Calculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
