@@ -21,4 +21,9 @@ public class WorkersCalculator : MonoBehaviour
     {
         return _currentWorkersCount;
     }
+
+    public string GetWorkersGroupName()
+    {
+        return _workers.groupName;
+    }
 }

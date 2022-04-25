@@ -56,10 +56,12 @@
     <Compile Include="Assets\Scripts\Click\Click.cs" />
     <Compile Include="Assets\Scripts\Click\ClickCalculator.cs" />
     <Compile Include="Assets\Scripts\Settings\SettingsTemplates\GameSettings.cs" />
-    <Compile Include="Assets\Scripts\Settings\SettingsTemplates\Resource.cs" />
     <Compile Include="Assets\Scripts\Settings\SettingsTemplates\Workers.cs" />
-    <Compile Include="Assets\Scripts\WorkersCalculator.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsTemplates\Resource.cs" />
     <Compile Include="Assets\Scripts\AutoClicker.cs" />
+    <Compile Include="Assets\Scripts\WorkersCalculator.cs" />
+    <Compile Include="Assets\Scripts\WorkersController.cs" />
+    <Compile Include="Assets\Scripts\ClickAddCitizens.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
