@@ -53,12 +53,13 @@
     <UnityVersion>2020.3.33f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Click.cs" />
-    <Compile Include="Assets\Scripts\MainController.cs" />
-    <Compile Include="Assets\Scripts\Settings\GameSettings.cs" />
-    <Compile Include="Assets\Scripts\Calculator.cs" />
-    <Compile Include="Assets\Scripts\ClickUpgrade.cs" />
-    <Compile Include="Assets\Scripts\Up.cs" />
+    <Compile Include="Assets\Scripts\Click\Click.cs" />
+    <Compile Include="Assets\Scripts\Click\ClickCalculator.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsTemplates\GameSettings.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsTemplates\Resource.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsTemplates\Workers.cs" />
+    <Compile Include="Assets\Scripts\WorkersCalculator.cs" />
+    <Compile Include="Assets\Scripts\AutoClicker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
