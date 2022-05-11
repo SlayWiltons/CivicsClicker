@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ec1f1684c52684fb465fc215b8ce84, type: 3}
   m_Name: TestGameSettings
   m_EditorClassIdentifier: 
-  clickDefaultPoints: 1
+  defaultPointsOnClick: 1
+  startDefaultPoints: 0

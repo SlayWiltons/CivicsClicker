@@ -5,5 +5,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewResource", menuName = "Resource")]
 public class Resource : ScriptableObject
 {
-    public ulong baseIncome;
+    public string resourceName;
+    public ulong startQuantity;
 }

@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Click : MonoBehaviour
 {
-    [SerializeField] private ClickCalculator _clickCalculator;
+    [SerializeField] private ClickController _clickController;
 
     public void OnButtonClick()
     {
-        _clickCalculator.AddPoints();
+        _clickController.PlusPoints();
     }
 }

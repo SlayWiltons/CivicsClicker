@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: StoneMiners
   m_EditorClassIdentifier: 
   groupName: Stoneminers
-  baseCount: 0
+  startCount: 0
+  price: 100

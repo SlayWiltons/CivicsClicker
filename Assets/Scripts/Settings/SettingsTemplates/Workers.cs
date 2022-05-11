@@ -6,5 +6,6 @@ using UnityEngine;
 public class Workers : ScriptableObject
 {
     public string groupName;
-    public ulong baseCount;
+    public ulong startCount;
+    public ulong price;
 }

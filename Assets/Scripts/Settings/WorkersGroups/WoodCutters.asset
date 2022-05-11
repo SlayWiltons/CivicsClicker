@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: WoodCutters
   m_EditorClassIdentifier: 
   groupName: Woodcutters
-  baseCount: 0
+  startCount: 0
+  price: 50
