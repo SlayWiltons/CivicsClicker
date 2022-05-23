@@ -59,8 +59,10 @@
     <Compile Include="Assets\Scripts\Settings\SettingsTemplates\GameSettings.cs" />
     <Compile Include="Assets\Scripts\Settings\SettingsTemplates\Workers.cs" />
     <Compile Include="Assets\Scripts\Settings\SettingsTemplates\Resource.cs" />
-    <Compile Include="Assets\Scripts\WorkersScripts\WorkersCalculator.cs" />
     <Compile Include="Assets\Scripts\ResourcesScripts\AutoAdding.cs" />
+    <Compile Include="Assets\Scripts\WorkersScripts\WorkersCalculator.cs" />
+    <Compile Include="Assets\Scripts\Calculator.cs" />
+    <Compile Include="Assets\Scripts\Controller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

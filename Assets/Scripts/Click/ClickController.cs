@@ -5,16 +5,10 @@ using UnityEngine;
 public class ClickController : MonoBehaviour
 {
     [SerializeField] private GameSettings _gameSettings;
-    [SerializeField] private ResourceCalculator _resourceCalculator;
-    private ulong _defaulClickPoints;
-
-    private void Awake()
-    {
-        _defaulClickPoints = _gameSettings.defaultPointsOnClick;
-    }
+    [SerializeField] private Controller _controller;
 
     public void PlusPoints()
     {
-        _resourceCalculator.PlusPoints(_defaulClickPoints);
+        _controller.Add(_gameSettings.defaultPointsOnClick);
     }
 }
