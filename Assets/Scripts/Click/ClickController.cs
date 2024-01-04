@@ -6,6 +6,7 @@ public class ClickController : MonoBehaviour
 {
     [SerializeField] private GameSettings _gameSettings;
     [SerializeField] private Controller _controller;
+    [SerializeField] private Resource _resource;
 
     public void PlusPoints()
     {

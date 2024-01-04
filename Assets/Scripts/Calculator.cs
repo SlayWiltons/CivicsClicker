@@ -1,27 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class Calculator
 {
-    private ulong _currentPoints;
+    private int _currentPoints;
+    private int _maxLimit;
 
-    public void PlusPoints(ulong points)
+    public void PlusPoints(int points)
     {
         _currentPoints += points;
     }
 
-    public void MinusPoints(ulong points)
+    public void MinusPoints(int points)
     {
         _currentPoints -= points;
     }
 
-    public void SetCurrentPoints(ulong points)
+    public void SetCurrentPoints(int points)
     {
         _currentPoints = points;
     }
 
-    public ulong GetCurrentPoints()
+    public int GetCurrentPoints()
     {
         return _currentPoints;
     }

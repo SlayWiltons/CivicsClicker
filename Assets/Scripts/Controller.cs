@@ -22,7 +22,7 @@ public class Controller : MonoBehaviour
         _resourceQuantity.text = _resource.startQuantity.ToString();
     }
 
-    public void Add(ulong points)
+    public void Add(int points)
     {
         _calculator.PlusPoints(points);
         _resourceQuantity.text = _calculator.GetCurrentPoints().ToString();

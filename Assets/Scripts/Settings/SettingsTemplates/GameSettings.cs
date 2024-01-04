@@ -6,5 +6,5 @@ using UnityEngine;
 public class GameSettings : ScriptableObject
 {
     [Header("Click parameters", order = 0)]
-    public ulong defaultPointsOnClick;
+    public int defaultPointsOnClick;
 }
