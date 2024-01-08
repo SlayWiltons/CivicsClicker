@@ -17,9 +17,9 @@ public class Controller : MonoBehaviour
 
     private void Start()
     {
-        _calculator.SetCurrentPoints(_resource.startQuantity);
+        //_calculator.SetCurrentPoints(_resource.startQuantity);
         _resourceName.text = _resource.name;
-        _resourceQuantity.text = _resource.startQuantity.ToString();
+       // _resourceQuantity.text = _resource.startQuantity.ToString();
     }
 
     public void Add(int points)

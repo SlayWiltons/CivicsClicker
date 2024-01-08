@@ -615,6 +615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gameSettings: {fileID: 11400000, guid: 400f6046acc466747bafbfe1a4923569, type: 2}
   _controller: {fileID: 120686095}
+  _resource: {fileID: 11400000, guid: 1ec42208f9b2ce84ab6cd349f07988e8, type: 2}
 --- !u!4 &801018880
 Transform:
   m_ObjectHideFlags: 0

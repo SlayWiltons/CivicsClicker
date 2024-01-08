@@ -10,6 +10,14 @@ public class ClickController : MonoBehaviour
 
     public void PlusPoints()
     {
-        _controller.Add(_gameSettings.defaultPointsOnClick);
+        if ((_resource.Quantity + _gameSettings.defaultPointsOnClick) <= _resource.Limit)
+        {
+            _controller.Add(_gameSettings.defaultPointsOnClick);
+            _resource.Quantity += _gameSettings.defaultPointsOnClick;
+        }
+        else
+        {
+            _resource.Quantity = _resource.Limit;
+        }
     }
 }
