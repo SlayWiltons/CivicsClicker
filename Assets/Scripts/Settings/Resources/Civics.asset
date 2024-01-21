@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce76b87e16f9ec54f8d2452b41edceb7, type: 3}
   m_Name: Civics
   m_EditorClassIdentifier: 
-  ResourceName: 
-  Quantity: 10
+  ResourceName: Civics
+  Quantity: 5
   Limit: 10

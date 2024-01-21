@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\Settings\SettingsTemplates\GameSettings.cs" />
     <Compile Include="Assets\Scripts\Settings\SettingsTemplates\Resource.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\ResourceController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
